@@ -1,0 +1,15 @@
+.App {
+
+  &__primary-controls {
+    margin: 10px;
+    padding-bottom: 4px;
+    padding-left: 35%;
+    border-radius: 75%;
+    border-bottom: 1px solid darkgrey;
+  }
+  &__download-btn {
+    @extend .btn;
+    @extend .btn-primary;
+  }
+
+}
